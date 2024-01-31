@@ -41,7 +41,7 @@ const manifest2:VitePWAOptions = {
     start_url: "/",
     orientation: 'portrait'
   },
-  injectRegister: false,
+  injectRegister: 'auto',
   minify: false,
   workbox: {
     clientsClaim: true,
