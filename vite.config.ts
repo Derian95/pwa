@@ -43,7 +43,10 @@ const manifest2:VitePWAOptions = {
   },
   injectRegister: false,
   minify: false,
-  workbox: undefined,
+  workbox: {
+    clientsClaim: true,
+    skipWaiting: true
+  },
   injectManifest: undefined,
   includeManifestIcons: false,
   disable: false
